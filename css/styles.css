@@ -1851,6 +1851,69 @@ table td {
     margin: 0 auto 15px;
 }
 
+.product-page-text {
+    position: relative;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 1;
+    text-align: center;  
+    margin-bottom: 20px;  
+}
+
+.shops-logos {
+    position: relative;
+    max-width: 582px;
+    width: 100%;
+    margin: 0 auto 80px;
+}
+
+.products {
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.product {
+    margin-bottom: 40px;
+}
+
+.product-img {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 169px;
+    height: 140px;
+    background: url(../img/product-bg.svg) center no-repeat;
+    background-size: contain;
+    margin: 0 auto 10px;
+}
+
+.product-img img {
+    max-width: 157px;
+}
+
+.product-name {
+    max-width: 173px;
+    width: 100%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.product-name span {
+    font-weight: normal;
+}
+
+.fake-product {
+    width: 173px;
+}
+
 @media (max-width: 1000px) {
     .container {
         max-width: 375px;
@@ -2222,6 +2285,32 @@ table td {
         font-size: 16px;
         line-height: 18px;
     }
+
+    .product-page-text {
+        max-width: 220px;
+        width: 100%;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 auto 20px;
+    }
+
+    .shops-logos {
+        max-width: 334px;
+        margin-bottom: 40px;
+    }
+
+    .products {
+        max-width: 340px;
+    }
+
+    .product-img {
+        width: 156px;
+        height: 129px;
+    }
+
+    .product-name {
+        max-width: 160px;
+    }
 }
 
 @media (max-width: 370px) {
@@ -2233,5 +2322,20 @@ table td {
     .faq-title {
         height: 64px;
         font-size: 32px;
+    }
+
+    .product-img {
+        width: 140px;
+        height: 119px;
+    }
+
+    .product-img img {
+        transform: scale(.8);
+    }
+
+    .product-name {
+        max-width: 140px;
+        font-size: 14px;
+        line-height: 16px;
     }
 }
