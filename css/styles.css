@@ -2182,6 +2182,146 @@ table td {
     margin: 0 auto 40px;
 }
 
+.wrapper .error-page::before {
+    height: 100%;
+    background: radial-gradient(49.83% 55.68% at 49.83% 44.32%, #83DBEF 0%, rgba(69, 142, 185, 0) 100%) center 0 no-repeat;
+    background-size: 1020px 600px;
+}
+
+.error-img {
+    position: relative;
+    max-width: 968px;
+    width: 100%;
+    height: 575px;
+    margin: 0 auto;
+}
+
+.img-404 {
+    background: url(../img/404.png) center no-repeat;
+    background-size: contain;
+}
+
+.img-500 {
+    background: url(../img/500.png) center no-repeat;
+    background-size: contain;
+}
+
+.wrapper .cookie-page::before {
+    height: 1200px;
+    background: radial-gradient(56.06% 62.64% at 47.88% 37.36%, #83DBEF 0%, rgba(69, 142, 185, 0) 100%) center no-repeat;
+    background-size: 100%;
+    opacity: .6;
+}
+
+.cookie-page .container {
+    position: relative;
+}
+
+.main-cookie-h1 {
+    position: relative;
+    max-width: 684px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 118%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 45px;
+}
+
+.main-cookie-h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150px;
+    bottom: 0;
+    width: 213px;
+    height: 196px;
+    margin: auto;
+    background: url(../img/cookie-title-left.png) center no-repeat;
+    background-size: contain;
+}
+
+.main-cookie-h1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -200px;
+    bottom: 0;
+    width: 246px;
+    height: 245px;
+    margin: auto;
+    background: url(../img/cookie-title-right.png) center no-repeat;
+    background-size: contain;
+}
+
+.cookie-page p {
+    font-size: 21px;
+    line-height: 152%;
+    margin: 40px 0;
+}
+
+.main-cookie-h3 {
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.cookie-text-ul {
+    font-size: 21px;
+    line-height: 152%;
+    padding-left: 50px;
+    list-style: none;
+}
+
+.cookie-text-ul li {
+    position: relative;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.cookie-text-ul li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 26px;
+    height: 30px;
+    background: url(../img/bullet.png) center no-repeat;
+    background-size: contain;
+}
+
+.cookie-text-ul li span {
+    color: #fff;
+}
+
+.main-cookie-h2 {
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.btn-link {
+    margin-top: 20px;
+}
+
+.iframe-wrap,
+.iframe-wrap iframe {
+    scrollbar-width: none;
+}
+
+.iframe-wrap {
+    height: 100%;
+    min-height: 340px;
+    width: 100%;
+}
+
+.iframe-wrap iframe {
+    height: 100vh;
+    max-height: 340px;
+    width: 100%;
+}
+
 @media (max-width: 1200px) {
     .action {
         width: 150px;
@@ -2767,6 +2907,55 @@ table td {
 
     .main-shops-logos img {
         display: none;
+    }
+
+    .img-404 {
+        max-width: 375px;
+        height: 300px;
+        background: url(../img/404-mob.png) center no-repeat;
+        background-size: 375px 300px;
+    }
+
+    .img-500 {
+        max-width: 375px;
+        height: 340px;
+        background: url(../img/500-mob.png) center no-repeat;
+        background-size: 375px 340px;
+    }
+
+    .main-cookie-h1 {
+        font-size: 44px;
+        margin-bottom: 30px;
+    }
+
+    .main-cookie-h1::before,
+    .main-cookie-h1::after {
+        display: none;
+    }
+
+    .cookie-page p {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .main-cookie-h3,
+    .main-cookie-h2 {
+        font-size: 18px;
+    }
+
+    .cookie-text-ul {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+
+    .cookie-text-ul li {
+        margin: 10px 0;
+    }
+
+    .cookie-text-ul li::before {
+        width: 19px;
+        height: 22px;
+        left: -25px;
     }
 }
 

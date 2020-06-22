@@ -14,16 +14,12 @@ $(document).ready(function () {
     });
 
     $('.anchor[href^="#"]').click(function () {
-        if($(window).innerWidth() > 1000) {
-            $('.anchor[href^="#"]').removeClass('active');
-            $(this).addClass('active');
-        }
         if($(window).innerWidth() <= 1000) {
            $('.menu-links').removeClass('active'); 
            $('.burger').removeClass('active');
         }
         elementClick = $(this).attr("href");
-        destination = $(elementClick).offset().top-150;
+        destination = $(elementClick).offset().top-50;
         $('html, body').animate( { scrollTop: destination }, 500, 'swing' );
         return false;
     });
