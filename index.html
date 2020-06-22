@@ -27,10 +27,10 @@
 				<div class="menu">
 					<a href="#!" class="burger"></a>
 					<nav class="menu-links">
-						<a href="index.html" class="menu-link">Главная</a>
+						<a href="index.html" class="menu-link active">Главная</a>
 						<a href="#!" class="menu-link" target="_blank">Правила</a>
-						<a href="product.html" class="menu-link active">Продукт</a>
-						<a href="index.html#prizes" class="menu-link">Призы</a>
+						<a href="product.html" class="menu-link">Продукт</a>
+						<a href="#prizes" class="menu-link anchor">Призы</a>
 						<a href="winners.html" class="menu-link">Победители</a>
 						<a href="faq.html" class="menu-link">Вопрос-ответ</a>
 						<a href="#!" class="btn menu-btn pop-op" data-popup="check-upload">
@@ -44,125 +44,124 @@
 						<a href="lk.html" class="menu-link login-link pop-op" data-popup="auth">Личный кабинет</a>
 					</nav>
 				</div>
+				<div class="action"></div>
 			</header>
-			<section class="inner-page">
+			<section class="main-page">
+				<img src="img/gift1.png" class="gift gift1" alt="">
+				<img src="img/gift2.png" class="gift gift2" alt="">
 				<div class="container">
-					<div class="inner-title product-title">Продукты</div>
-					<div class="product-page-text">В акции участвуют продукты с OREO в сети «Пятёрочка»</div>
-					<div class="shops-logos">
-						<img src="img/shops-logos.png" alt="">
+					<div class="kv"></div>
+					<div class="steps">
+						<div class="step step1">
+							<div class="step-num">1</div>
+							<div class="step-title">Купи</div>
+							<div class="step-text">Любой продукт с oreo <br>в сети «Пятёрочка»</div>
+							<div class="step-img">
+								<img src="img/step1.png" alt="">
+							</div>
+						</div>
+						<div class="step step2">
+							<div class="step-num">2</div>
+							<div class="step-title">Загрузи</div>
+							<div class="step-text">Чек на сайт</div>
+						</div>
+						<div class="step step3">
+							<div class="step-num">3</div>
+							<div class="step-text1">Гарантированно</div>
+							<div class="step-title">получи</div>
+							<div class="step-text2">свой подарок</div>
+							<div class="step-img">
+								<img src="img/prizes/prize1.png" alt="">
+							</div>
+						</div>
+						<div class="step step4">
+							<div class="step-num">4</div>
+							<div class="step-title">Регистрируй больше чеков</div>
+							<div class="step-text">И участвуй в розыгрыше ценных призов!</div>
+						</div>
 					</div>
-					<div class="products">
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/1.png" alt="" width="126">
+					<div class="btn-wrap main-btn-wrap">
+						<a href="#!" class="btn pop-op" data-popup="check-upload">
+							<svg width="200" height="54" viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+							    <g filter="url(#filter1_d)">
+							        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.22033 4.13948C2.43666 10.8602 -1.67268 42.1107 8.52472 45.3567C26.8974 51.2052 131.733 45.373 185.656 46.3924C203.985 46.7396 201.082 4.41322 196.773 2.0395C189.197 -2.13186 94.0462 1.52064 66.0055 0.723953C42.3389 0.0518779 7.50715 -1.38215 5.22033 4.13948Z" fill="#FFF568" />
+							    </g>
+							</svg>
+							<span>Загрузи чеки</span>
+						</a>
+					</div>
+					<div id="prizes" class="main-prize-title">Призы</div>
+					<div class="prizes-block">
+						<div class="prizes-col">
+							<div class="prizes garant-prizes">
+								<div class="prizes-title">Гарантированный приз</div>
+								<div class="prize-wrapper">
+									<div class="prize-img">
+										<img src="img/prizes/prize1.png" alt="">
+									</div>
+									<div class="prize-name-wrapper">
+										<div class="prize-name">купон на скидку 30% <br>в сети «Пятёрочка»</div>
+										<div class="prize-text">за каждый чек</div>
+									</div>
+								</div>
 							</div>
-							<div class="product-name">Печенье OREO с начинкой со вкусом шоколада, <span>228г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/2.png" alt="" width="105">
+							<div class="prizes weekly-prizes">
+								<div class="prizes-title">Еженедельные призы</div>
+								<div class="prize-wrapper">
+									<div class="prize-img">
+										<img src="img/prizes/prize5.png" alt="">
+									</div>
+									<div class="prize-name-wrapper">
+										<div class="prize-name">Сертификат Hoff</div>
+										<div class="prize-text">номиналом 50 000 руб.</div>
+									</div>
+								</div>
+								<div class="prize-wrapper">
+									<div class="prize-img">
+										<img src="img/prizes/prize6.png" alt="">
+									</div>
+									<div class="prize-name-wrapper">
+										<div class="prize-name">Сертификат Ситилинк</div>
+										<div class="prize-text">номиналом 50 000 руб.</div>
+									</div>
+								</div>
 							</div>
-							<div class="product-name">Печенье OREO с начинкой со вкусом клубники, <span>228г</span></div>
 						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/3.png" alt="" width="126">
+						<div class="prizes-col">
+							<div class="prizes daily-prizes">
+								<div class="prizes-title">Ежедневные призы</div>
+								<div class="prize-wrapper">
+									<div class="prize-img">
+										<img src="img/prizes/prize2.png" alt="">
+									</div>
+									<div class="prize-name-wrapper">
+										<div class="prize-name">универсальная <br>подарочная карта</div>
+										<div class="prize-text">на 5 000 руб.</div>
+									</div>
+								</div>
+								<div class="prize-wrapper">
+									<div class="prize-img">
+										<img src="img/prizes/prize3.png" alt="">
+									</div>
+									<div class="prize-name-wrapper">
+										<div class="prize-name">Онлайн-курс <br>английского языка</div>
+										<div class="prize-text">на 1 месяц</div>
+									</div>
+								</div>
+								<div class="prize-wrapper">
+									<div class="prize-img">
+										<img src="img/prizes/prize4.png" alt="">
+									</div>
+									<div class="prize-name-wrapper">
+										<div class="prize-name">50 000 баллов</div>
+										<div class="prize-text">на Выручай-карту</div>
+									</div>
+								</div>
 							</div>
-							<div class="product-name">Печенье OREO с начинкой со вкусом клубники, <span>95г</span></div>
 						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/4.png" alt="" width="106">
-							</div>
-							<div class="product-name">Печенье OREO с начинкой со вкусом шоколада, <span>228г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/5.png" alt="" width="157">
-							</div>
-							<div class="product-name">Печенье OREO с начинкой со вкусом шоколада, <span>95г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/6.png" alt="" width="119">
-							</div>
-							<div class="product-name">Печенье OREO с начинкой с ванильным вкусом, <span>396г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/7.png" alt="" width="105">
-							</div>
-							<div class="product-name">Печенье OREO с начинкой с ванильным вкусом, <span>228г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/8.png" alt="" width="123">
-							</div>
-							<div class="product-name">Печенье OREO с начинкой с ванильным вкусом, <span>95г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/9.png" alt="" width="119">
-							</div>
-							<div class="product-name">Печенье OREO с начинкой с ванильным вкусом, <span>38г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/10.png" alt="" width="119">
-							</div>
-							<div class="product-name">Печенье OREO с двойной начинкой с ванильным вкусом, <span>170г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/11.png" alt="" width="46">
-							</div>
-							<div class="product-name">Alpen Gold молочный шоколад с OREO, <span>95г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/12.png" alt="" width="46">
-							</div>
-							<div class="product-name">Alpen Gold молочный шоколад со вкусом арахисовой пасты и кусочками печенья OREO, <span>95г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/13.png" alt="" width="46">
-							</div>
-							<div class="product-name">Alpen Gold молочный шоколад со вкусом чизкейка и кусочками печенья OREO, <span>95г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/14.png" alt="" width="45">
-							</div>
-							<div class="product-name">Alpen Gold молочный шоколад со вкусом ванили, с кусочками печенья OREO и малины, <span>95г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/15.png" alt="" width="134">
-							</div>
-							<div class="product-name">Milka OREO батончик, <span>37г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/16.png" alt="" width="50">
-							</div>
-							<div class="product-name">Milka молочный шоколад с печеньем OREO с начинкой со вкусом ванили, <span>92г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/17.png" alt="" width="129">
-							</div>
-							<div class="product-name">Milka молочный шоколад с начинкой со вкусом ванили и печеньем OREO, <span>300г</span></div>
-						</div>
-						<div class="product">
-							<div class="product-img">
-								<img src="img/products/18.png" alt="" width="128">
-							</div>
-							<div class="product-name">Пирожное Медвежонок Барни Фан сэндвич с печеньем OREO и с начинкой с темным шоколадом, <span>180г</span></div>
-						</div>
-						<div class="fake-product"></div>
-						<div class="fake-product"></div>
+					</div>
+					<div class="main-shops-logos">
+						<img src="img/shops-logos.png" alt="">
 					</div>
 				</div>
 			</section>

@@ -1914,6 +1914,289 @@ table td {
     width: 173px;
 }
 
+.action {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 194px;
+    background: url(../img/action.png) center no-repeat;
+    background-size: contain;
+}
+
+.main-page {
+    padding-top: 350px;
+}
+
+.gift {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.gift1 {
+    width: 106px;
+    top: 950px;
+    right: 1000px;
+}
+
+.gift2 {
+    width: 106px;
+    top: 1450px;
+    left: 1100px;
+}
+
+.kv {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    max-width: 1212px;
+    width: 100%;
+    height: 474px;
+    margin: auto;
+    background: url(../img/kv.png) center no-repeat;
+    background-size: contain;
+}
+
+.steps {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 890px;
+    width: 100%;
+    margin: 0 auto 45px;
+}
+
+.step {
+    position: relative;
+    padding: 15px 20px 0 80px;
+}
+
+.step1 {
+    width: 632px;
+    height: 101px;
+    background: url(../img/step1-bg.svg) center no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.step2 {
+    width: 224px;
+    height: 105px;
+    background: url(../img/step2-bg.svg) center no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.step3 {
+    width: 356px;
+    height: 105px;
+    background: url(../img/step3-bg.svg) center no-repeat;
+    background-size: contain;
+}
+
+.step4 {
+    width: 488px;
+    height: 105px;
+    background: url(../img/step4-bg.svg) center no-repeat;
+    background-size: contain;
+}
+
+.step-num {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 47px;
+    text-align: center;
+    color: #27629E;
+    width: 50px;
+    height: 48px;
+    background: url(../img/step-num-bg.svg) center no-repeat;
+    background-size: contain;
+}
+
+.step2 .step-num {
+    top: 20px;
+}
+
+.step-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.step-text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #27629E;
+}
+
+.step1 .step-text {
+    max-width: 210px;
+}
+
+.step1 .step-img {
+    position: absolute;
+    top: -45px;
+    right: -10px;
+    width: 392px;
+}
+
+.step3 .step-img {
+    position: absolute;
+    width: 120px;
+    top: -12px;
+    right: 25px;
+}
+
+.step3 .step-title {
+    line-height: 33px;
+}
+
+.step-text1 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.step-text2 {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.main-prize-title {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 618px;
+    height: 276px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1;
+    text-transform: uppercase;
+    background: url(../img/main-title-bg.png) center 4px no-repeat;
+    background-size: contain;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.prizes-block {
+    display: flex;
+    justify-content: space-between;
+    max-width: 890px;
+    width: 100%;
+    margin: 0 auto 90px;
+}
+
+.prizes {
+    padding: 44px;
+}
+
+.garant-prizes {
+    width: 429px;
+    height: 223px;
+    background: url(../img/garant-prizes-bg.svg);
+    background-size: contain;
+    margin-bottom: 16px;
+}
+
+.weekly-prizes {
+    width: 429px;
+    height: 355px;
+    background: url(../img/weekly-prizes-bg.svg);
+    background-size: contain;
+}
+
+.daily-prizes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 429px;
+    height: 595px;
+    background: url(../img/daily-prizes-bg.svg);
+    background-size: contain;
+}
+
+.prize-wrapper {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.daily-prizes .prize-wrapper:nth-child(3) {
+    margin: 40px 0;
+}
+
+.prize-name-wrapper {
+    margin-left: 15px;
+}
+
+.prizes-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.prize-img {
+    width: 141px;
+    height: 130px;
+}
+
+.weekly-prizes .prize-wrapper:nth-child(2) .prize-img {
+    height: 120px;
+}
+
+.prize-name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #27629E;
+}
+
+.prize-text {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 21px;
+    color: #27629E;
+}
+
+.main-shops-logos {
+    max-width: 874px;
+    width: 100%;
+    margin: 0 auto 40px;
+}
+
+@media (max-width: 1200px) {
+    .action {
+        width: 150px;
+        height: 146px;
+    }
+
+    .kv {
+        max-width: 1000px;
+    }
+
+    .gift2 {
+        display: none;
+    }
+}
+
 @media (max-width: 1000px) {
     .container {
         max-width: 375px;
@@ -2311,6 +2594,180 @@ table td {
     .product-name {
         max-width: 160px;
     }
+
+    .action {
+        left: 0;
+        width: 146px;
+        height: 109px;
+        margin: auto;
+        background: url(../img/action-mob.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .main-page {
+        padding-top: 520px;
+    }
+
+    .wrapper .main-page {
+        margin-bottom: 0;
+    }
+
+    .gift {
+        display: none;
+    }
+
+    .kv {
+        max-width: 436px;
+        height: 447px;
+        background: url(../img/kv-mob.png) center no-repeat;
+        background-size: 436px 447px;
+    }
+
+    .main-btn-wrap {
+        position: absolute;
+        top: 430px;
+        left: 0;
+        right: 0;
+    }
+
+    .steps {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .step {
+        max-width: 332px;
+        width: 100%;
+        margin: 0 auto 20px;
+        padding-left: 70px;
+    }
+
+    .step1 {
+        height: 127px;
+        background: url(../img/step1-mob.svg) center no-repeat;
+        background-size: contain;
+        padding-top: 30px;
+    }
+
+    .step2 {
+        height: 100px;
+        background: url(../img/step2-mob.svg) center no-repeat;
+        background-size: contain;
+    }
+
+    .step3 {
+        max-width: 334px;
+        height: 109px;
+        background: url(../img/step3-mob.svg) center no-repeat;
+        background-size: contain;
+    }
+
+    .step4 {
+        height: 156px;
+        background: url(../img/step4-mob.svg) center no-repeat;
+        background-size: contain;
+        padding-top: 25px;
+    }
+
+    .step1 .step-num {
+        top: 30px;
+    }
+
+    .step1 .step-img {
+        top: -80px;
+        left: 25px;
+        right: 0;
+        width: 298px;
+        margin: auto;
+    }
+
+    .step4 .step-num {
+        top: 25px;
+    }
+
+    .step4 .step-text {
+        max-width: 200px;
+    }
+
+    .step-num {
+        font-size: 30px;
+        line-height: 36px;
+        width: 38px;
+        height: 36px;
+    }
+
+    .step-title {
+        line-height: 1;
+    }
+
+    .main-prize-title {
+        position: absolute;
+        top: 1120px;
+        left: -50px;
+        right: -50px;
+        max-width: 375px;
+        width: 100%;
+        height: 223px;
+        font-size: 37px;
+        background: url(../img/main-title-bg-mob.png) center -4px no-repeat;
+        background-size: 375px;
+        padding-left: 10px;
+    }
+
+    .prizes-block {
+        position: relative;
+        flex-direction: column;
+        margin: 100px auto 0;
+        padding: 44px 0 60px;
+    }
+
+    .prizes-block::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100px;
+        right: -100px;
+        max-width: 429px;
+        height: 100%;
+        margin: auto;
+        background: url(../img/prizes-bg-mob.svg) center no-repeat;
+        background-size: 429px 1030px;
+        z-index: 0;
+    }
+
+    .prizes {
+        position: relative;
+        max-width: 330px;
+        width: 100%;
+        height: auto;
+        background: none;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .daily-prizes .prize-wrapper:nth-child(3) {
+        margin: 0;
+    }
+
+    .main-shops-logos {
+        position: absolute;
+        top: 2274px;
+        left: -50px;
+        right: -50px;
+        max-width: 396px;
+        width: 100%;
+        height: 89px;
+        margin: auto;
+        background: url(../img/shops-logos.png) center no-repeat;
+        background-size: 396px 89px;
+    }
+
+    .main-shops-logos img {
+        display: none;
+    }
 }
 
 @media (max-width: 370px) {
@@ -2337,5 +2794,58 @@ table td {
         max-width: 140px;
         font-size: 14px;
         line-height: 16px;
+    }
+
+    .step {
+        margin-bottom: 10px;
+    }
+
+    .step1 .step-img {
+        top: -70px;
+        width: 265px;
+    }
+
+    .step3 .step-img {
+        width: 100px;
+        top: 0;
+        right: 15px;
+    }
+
+    .main-prize-title {
+        top: 1090px;
+    }
+
+    .prizes-title {
+        font-size: 32px;
+    }
+
+    .prize-img {
+        width: 128px;
+    }
+
+    .prize-name {
+        font-size: 17px;
+        line-height: 19px;
+    }
+
+    .prize-text {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .main-shops-logos {
+        top: 2220px;
+    }
+}
+
+@media (max-width: 320px) {
+    .action {
+        width: 120px;
+        height: 90px;
+    }
+
+    .main-shops-logos {
+        top: 2224px;
+        background-size: 350px 78px;
     }
 }
