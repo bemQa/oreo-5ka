@@ -1,4 +1,24 @@
 $(document).ready(function () {
+    if(window.innerWidth > 1000) {
+        $(window).on('scroll load', function () {
+            var top = $(window).scrollTop();
+            var href = $('.anchor').attr('href');
+            if(top >= 250) {
+                $('.menu-links').addClass('fixed');
+            } else {
+                $('.menu-links').removeClass('fixed');
+            }
+            $('.wrapper section').each(function() {
+                var destination = $(this).offset().top-250;
+                if(top >= destination) {
+                    var id = $(this).attr('id');
+                    $('.anchor[href^="#"]').removeClass('active');
+                    $('.anchor[href^="#'+id+'"]').addClass('active');
+                }
+            });
+        });
+    }
+
 	$('.burger').click(function(e){
         e.preventDefault();
         (this.classList.contains("active") === true) ? this.classList.remove("active") : this.classList.add("active");

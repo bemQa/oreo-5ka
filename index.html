@@ -206,7 +206,7 @@
                     <div class="popup__error"></div>
                     <form class="popup-form">
                     	<div class="input-field">
-                    		<input type="text" name="email" placeholder="E-mail" required>
+                    		<input type="text" name="phone" class="phone-mask" placeholder="Телефон" required>
                     		
                     	</div>
                     	<div class="input-field mb0">
@@ -311,7 +311,7 @@
 								        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.22033 4.13948C2.43666 10.8602 -1.67268 42.1107 8.52472 45.3567C26.8974 51.2052 131.733 45.373 185.656 46.3924C203.985 46.7396 201.082 4.41322 196.773 2.0395C189.197 -2.13186 94.0462 1.52064 66.0055 0.723953C42.3389 0.0518779 7.50715 -1.38215 5.22033 4.13948Z" fill="#FFF568" />
 								    </g>
 								</svg>
-								<span>Отправить</span>
+								<span>Зарегистрироваться</span>
                     		</button> -->
                     		<a href="#!" class="btn pop-op" data-popup="reg-confirm">
 								<svg width="200" height="54" viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -319,7 +319,7 @@
 								        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.22033 4.13948C2.43666 10.8602 -1.67268 42.1107 8.52472 45.3567C26.8974 51.2052 131.733 45.373 185.656 46.3924C203.985 46.7396 201.082 4.41322 196.773 2.0395C189.197 -2.13186 94.0462 1.52064 66.0055 0.723953C42.3389 0.0518779 7.50715 -1.38215 5.22033 4.13948Z" fill="#FFF568" />
 								    </g>
 								</svg>
-								<span>Отправить</span>
+								<span>Зарегистрироваться</span>
                     		</a>
                     	</div>
                     </form>
@@ -337,7 +337,7 @@
 				</a>
                 <div class="popup__inner">
                 	<div class="popup__title">Регистрация пройдена</div>
-                    <div class="popup__desc">Пароль отправлен на почту, указанную при регистрации.</div>
+                    <div class="popup__desc">Пароль отправлен на телефон, указанный при регистрации.</div>
                     <div class="btn-wrap">
                 		<a href="#!" class="btn pop-op" data-popup="auth">
 							<svg width="200" height="54" viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -363,10 +363,10 @@
                 <div class="popup__inner">
                     <div class="popup__title">Сброс пароля</div>
                     <form class="popup-form">
-                    	<div class="popup__desc before-send">Введите свой e-mail для восстановления пароля<br><br>Мы отправим письмо <br>с паролем на вашу почту</div>
-                    	<div class="popup__desc after-send" style="display: none;">Пароль был отправлен<br>на ваш почтовый ящик</div>
+                    	<div class="popup__desc before-send">Введи свой телефон для восстановления пароля<br><br>Мы отправим смс-сообщение <br>с паролем</div>
+                    	<div class="popup__desc after-send" style="display: none;">Пароль был отправлен<br>в смс-сообщении</div>
                     	<div class="input-field">
-                    		<input type="text" name="email" placeholder="E-mail" required>
+                    		<input type="text" name="phone" class="phone-mask" placeholder="Телефон" required>
                     	</div>
                     	<div class="input-field">
 							<span class="clock-text" style="display: none;">Можно отправить повторно через <span class="clock"></span></span>

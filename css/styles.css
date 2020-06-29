@@ -695,7 +695,7 @@ header {
     width: 100%;
     height: 82px;
     margin: auto;
-    z-index: 1;
+    z-index: 2;
 }
 
 .logo {
@@ -712,6 +712,18 @@ header {
     -ms-align-items: center;
     align-items: center;
     justify-content: center;
+}
+
+.menu-links.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 82px;
+    z-index: 1;
+    background: radial-gradient(49.83% 55.68% at 49.83% 44.32%, #0D87CA 0%, #055EB0 100%);
+    z-index: 5;
 }
 
 .menu-links a {
@@ -743,13 +755,13 @@ header {
 }
 
 .login-link {
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .login-link::before {
     content: '';
     position: absolute;
-    top: 0;
+    top: -2px;
     left: 0;
     bottom: 0;
     width: 10px;
@@ -1907,6 +1919,7 @@ table td {
 }
 
 .product-name span {
+    display: block;
     font-weight: normal;
 }
 
@@ -2108,7 +2121,7 @@ table td {
 .garant-prizes {
     width: 429px;
     height: 223px;
-    background: url(../img/garant-prizes-bg.svg);
+    background: url(../img/garant-prizes-bg.svg) center no-repeat;
     background-size: contain;
     margin-bottom: 16px;
 }
@@ -2116,7 +2129,7 @@ table td {
 .weekly-prizes {
     width: 429px;
     height: 355px;
-    background: url(../img/weekly-prizes-bg.svg);
+    background: url(../img/weekly-prizes-bg.svg) center no-repeat;
     background-size: contain;
 }
 
@@ -2126,11 +2139,11 @@ table td {
     justify-content: space-between;
     width: 429px;
     height: 595px;
-    background: url(../img/daily-prizes-bg.svg);
+    background: url(../img/daily-prizes-bg.svg) center no-repeat;
     background-size: contain;
 }
 
-.prize-wrapper {
+.prize-wrapper { 
     display: flex;
     -ms-align-items: center;
     align-items: center;
@@ -2338,6 +2351,9 @@ table td {
 }
 
 @media (max-width: 1000px) {
+    .wrapper {
+        background: radial-gradient(398.26% 48.33% at 49.83% 16.1%, #0D87CA 0%, #055EB0 100%);
+    }
     .container {
         max-width: 375px;
     }
@@ -2745,7 +2761,7 @@ table td {
     }
 
     .main-page {
-        padding-top: 520px;
+        padding-top: 570px;
     }
 
     .wrapper .main-page {
@@ -2757,6 +2773,7 @@ table td {
     }
 
     .kv {
+        top: 50px;
         max-width: 436px;
         height: 447px;
         background: url(../img/kv-mob.png) center no-repeat;
@@ -2765,7 +2782,7 @@ table td {
 
     .main-btn-wrap {
         position: absolute;
-        top: 430px;
+        top: 480px;
         left: 0;
         right: 0;
     }
@@ -2817,10 +2834,10 @@ table td {
     }
 
     .step1 .step-img {
-        top: -80px;
+        top: -82px;
         left: 25px;
         right: 0;
-        width: 298px;
+        width: 310px;
         margin: auto;
     }
 
@@ -2845,7 +2862,7 @@ table td {
 
     .main-prize-title {
         position: absolute;
-        top: 1120px;
+        top: 1170px;
         left: -50px;
         right: -50px;
         max-width: 375px;
@@ -2894,7 +2911,7 @@ table td {
 
     .main-shops-logos {
         position: absolute;
-        top: 2274px;
+        top: 2324px;
         left: -50px;
         right: -50px;
         max-width: 396px;
@@ -2990,18 +3007,18 @@ table td {
     }
 
     .step1 .step-img {
-        top: -70px;
-        width: 265px;
+        top: -74px;
+        width: 290px;
     }
 
     .step3 .step-img {
-        width: 100px;
-        top: 0;
+        width: 110px;
+        top: -5px;
         right: 15px;
     }
 
     .main-prize-title {
-        top: 1090px;
+        top: 1130px;
     }
 
     .prizes-title {
@@ -3023,7 +3040,7 @@ table td {
     }
 
     .main-shops-logos {
-        top: 2220px;
+        top: 2270px;
     }
 }
 
@@ -3034,7 +3051,18 @@ table td {
     }
 
     .main-shops-logos {
-        top: 2224px;
+        top: 2274px;
         background-size: 350px 78px;
+    }
+
+    .step1 .step-img {
+        top: -70px;
+        width: 265px;
+    }
+
+    .step3 .step-img {
+        width: 100px;
+        top: 0;
+        right: 15px;
     }
 }
